@@ -17,7 +17,7 @@ You could use a [Venn diagram][1], but that doesn't scale beyond three or four l
 [1]: http://en.wikipedia.org/wiki/Venn_diagram
 
 You could instead use a kind of circular representation, the one
-invented by [Martin Krzywinski][2] (he calls it [circos][3]) and [ported into d3.js][4]
+invented by [Martin Krzywinski][2] (he calls it [circos][3]) and [ported into d3.js][4].
 
 [2]: http://twitter.com/mkrzywinski
 [3]: http://circos.ca/
@@ -26,7 +26,7 @@ invented by [Martin Krzywinski][2] (he calls it [circos][3]) and [ported into d3
 How so? Each arc corresponds to a list, and a ribbon between two
 lists accounts for common elements.
 
-But still the current d3.js API for that is not as flexible [as it should be][5]
+But still the current d3.js API for that is not as flexible [as it should be][5].
 
 [5]: http://www.gghh.name/dibtp/?p=234
 
