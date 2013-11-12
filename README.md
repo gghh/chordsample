@@ -17,7 +17,7 @@ You could use a [Venn diagram][1], but that doesn't scale beyond three or four l
 [1]: http://en.wikipedia.org/wiki/Venn_diagram
 
 You could instead use a kind of circular representation, the one
-invented by [Martin Krzywinski][2][3] and [ported into d3.js][4]
+invented by [Martin Krzywinski][2] (he calls it [circos][3]) and [ported into d3.js][4]
 
 [2]: http://twitter.com/mkrzywinski
 [3]: http://circos.ca/
@@ -30,7 +30,7 @@ But still the current d3.js API for that is not as flexible [as it should be][5]
 
 [5]: http://www.gghh.name/dibtp/?p=234
 
-I propose a [different API][6][7] where the above illustration can be
+I propose a [different API][6] ([implemented here][7]) where the above illustration can be
 described as follow: how many people are at the same time nice (group 0),
 rich (group 1) and smart (group 2)? Not many, only Camilla actually.
 It's the last block in the representation below: groups 0, 1 and 2
